@@ -19,8 +19,7 @@ jobs:
       env:
         NUGET_AUTH_TOKEN: ${{ secrets.NUGET_API_KEY }}
         
-    - name: Bump versions
-      uses: SiqiLu/dotnet-bump-version@2.1.0
+    - uses: SiqiLu/dotnet-bump-version@master
       with:
         version_files: "**/*.csproj"
         version_mask: 0.0.1.0
