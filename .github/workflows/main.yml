@@ -20,12 +20,12 @@ jobs:
         NUGET_AUTH_TOKEN: ${{ secrets.NUGET_API_KEY }}
         
     - name: Bump versions
-          uses: SiqiLu/dotnet-bump-version@2.1.0
-          with:
-              version_files: "**/*.csproj"
-              version_mask: 0.0.1.0
-              version_overwrite: "*.*.*.*"
-              github_token: ${{ secrets.GITHUB_TOKEN }}
+      uses: SiqiLu/dotnet-bump-version@2.1.0
+      with:
+        version_files: "**/*.csproj"
+        version_mask: 0.0.1.0
+        version_overwrite: "*.*.*.*"
+        github_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Restore NuGet packages
       run: dotnet restore
