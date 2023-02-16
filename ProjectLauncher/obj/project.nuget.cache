@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CPW0D49vxTOHob8EH2R1twtQ10o0hOP5BDD+/OQFij4MMTpwgY+2JGfi/AfSKdJnu692AWaGlJ4TB0qX9lAPFw==",
+  "dgSpecHash": "A9eOYK148+lxYlwL+a+EpdKy9SCNuJWnztWtIkCJHHq7bdaJYt0oSo3H5W4ynD2yGRtdZ7iLAx/DKNsOHXoDaw==",
   "success": true,
-  "projectFilePath": "D:\\src\\johnsonbusiness\\Project\\ProjectLauncher\\ProjectLauncher\\ProjectLauncher.csproj",
+  "projectFilePath": "D:\\src\\stephanjohnson\\ProjectLauncher\\ProjectLauncher\\ProjectLauncher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\StephanJohnson\\.nuget\\packages\\spectre.console\\0.46.0\\spectre.console.0.46.0.nupkg.sha512",
     "C:\\Users\\StephanJohnson\\.nuget\\packages\\spectre.console.analyzer\\0.46.0\\spectre.console.analyzer.0.46.0.nupkg.sha512",

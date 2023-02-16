@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\src\\johnsonbusiness\\Project\\ProjectLauncher\\ProjectLauncher\\ProjectLauncher.csproj": {}
+    "D:\\src\\stephanjohnson\\ProjectLauncher\\ProjectLauncher\\ProjectLauncher.csproj": {}
   },
   "projects": {
-    "D:\\src\\johnsonbusiness\\Project\\ProjectLauncher\\ProjectLauncher\\ProjectLauncher.csproj": {
+    "D:\\src\\stephanjohnson\\ProjectLauncher\\ProjectLauncher\\ProjectLauncher.csproj": {
       "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "D:\\src\\johnsonbusiness\\Project\\ProjectLauncher\\ProjectLauncher\\ProjectLauncher.csproj",
+        "projectUniqueName": "D:\\src\\stephanjohnson\\ProjectLauncher\\ProjectLauncher\\ProjectLauncher.csproj",
         "projectName": "ProjectLauncher",
-        "projectPath": "D:\\src\\johnsonbusiness\\Project\\ProjectLauncher\\ProjectLauncher\\ProjectLauncher.csproj",
+        "projectPath": "D:\\src\\stephanjohnson\\ProjectLauncher\\ProjectLauncher\\ProjectLauncher.csproj",
         "packagesPath": "C:\\Users\\StephanJohnson\\.nuget\\packages\\",
-        "outputPath": "D:\\src\\johnsonbusiness\\Project\\ProjectLauncher\\ProjectLauncher\\obj\\",
+        "outputPath": "D:\\src\\stephanjohnson\\ProjectLauncher\\ProjectLauncher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\StephanJohnson\\AppData\\Roaming\\NuGet\\NuGet.Config",
