@@ -11,15 +11,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
-    - name: 🔢 Install GitVersion
-      uses: gittools/actions/gitversion/setup@v0.9.11
-      with:
-        versionSpec: "5.x"
-
-    - name: 🔢 Determine Version
-      id: gitversion
-      uses: gittools/actions/gitversion/execute@v0.9.11
 
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
@@ -28,11 +19,13 @@ jobs:
       env:
         NUGET_AUTH_TOKEN: ${{ secrets.NUGET_API_KEY }}
         
-    - name: Set all project version numbers
-      uses: vers-one/dotnet-project-version-updater@v1.2
-      with:
-        files: "**/*.csproj"
-        version: ${{ env.GITVERSION_FULLSEMVER }}
+    - name: Bump versions
+          uses: SiqiLu/dotnet-bump-version@2.1.0
+          with:
+              version_files: "**/*.csproj"
+              version_mask: 0.0.1.0
+              version_overwrite: "*.*.*.*"
+              github_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Restore NuGet packages
       run: dotnet restore
