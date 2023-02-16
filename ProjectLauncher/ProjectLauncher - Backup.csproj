@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Project Launcher</Title>
+    <Authors>Stephan Johnson</Authors>
+    <Product>Project Launcher</Product>
+    <Description>Project launcher is a utility that helps with managing multiple projects or solutions in modern software development. It can scan a directory for all the csproj and sln files. You have a choice of launching console/web apps using dotnet run, or opening visual studio with the solution file.
+
+The idea is that if you're developing on a large code-base, you don't want to run every project in its own visual studio. Project launcher allows you to quickly spin up running copies of the code directly from the command line, while you only focus on having an IDE open for the project you are actively working on.</Description>
+    <Copyright>Copyright (c) 2023 Stephan Johnson. All Rights Reserved.</Copyright>
+    <PackAsTool>True</PackAsTool>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console" Version="0.46.0" />
+    <PackageReference Include="Spectre.Console.Analyzer" Version="0.46.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Spectre.Console.Cli" Version="0.46.0" />
+  </ItemGroup>
+
+</Project>

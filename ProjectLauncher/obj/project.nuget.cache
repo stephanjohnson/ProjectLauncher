@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CPW0D49vxTOHob8EH2R1twtQ10o0hOP5BDD+/OQFij4MMTpwgY+2JGfi/AfSKdJnu692AWaGlJ4TB0qX9lAPFw==",
+  "success": true,
+  "projectFilePath": "D:\\src\\johnsonbusiness\\Project\\ProjectLauncher\\ProjectLauncher\\ProjectLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\StephanJohnson\\.nuget\\packages\\spectre.console\\0.46.0\\spectre.console.0.46.0.nupkg.sha512",
+    "C:\\Users\\StephanJohnson\\.nuget\\packages\\spectre.console.analyzer\\0.46.0\\spectre.console.analyzer.0.46.0.nupkg.sha512",
+    "C:\\Users\\StephanJohnson\\.nuget\\packages\\spectre.console.cli\\0.46.0\\spectre.console.cli.0.46.0.nupkg.sha512",
+    "C:\\Users\\StephanJohnson\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}

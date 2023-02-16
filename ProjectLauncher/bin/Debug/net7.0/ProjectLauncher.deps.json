@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ProjectLauncher/1.0.0": {
+        "dependencies": {
+          "Spectre.Console": "0.46.0",
+          "Spectre.Console.Analyzer": "0.46.0",
+          "Spectre.Console.Cli": "0.46.0"
+        },
+        "runtime": {
+          "ProjectLauncher.dll": {}
+        }
+      },
+      "Spectre.Console/0.46.0": {
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "runtime": {
+          "lib/net7.0/Spectre.Console.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.46.0.0"
+          }
+        }
+      },
+      "Spectre.Console.Analyzer/0.46.0": {},
+      "Spectre.Console.Cli/0.46.0": {
+        "dependencies": {
+          "Spectre.Console": "0.46.0"
+        },
+        "runtime": {
+          "lib/net7.0/Spectre.Console.Cli.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.46.0.0"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {}
+    }
+  },
+  "libraries": {
+    "ProjectLauncher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Spectre.Console/0.46.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qd2OMEGxfQW1KLuQj56KKHkIK6eB/IUF/AET5CRl/efROHGsvBehx9shfkL0HgJEHLCwRiR7foWi4/LkdPk18g==",
+      "path": "spectre.console/0.46.0",
+      "hashPath": "spectre.console.0.46.0.nupkg.sha512"
+    },
+    "Spectre.Console.Analyzer/0.46.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kbCnMdBdtRRtQtR+KKleYcCCe4QbK81LuZ5VR339/k545ggx0XcU29RMLxXdwhT0GQiGzZ7s2WpMO7LbGk+pEQ==",
+      "path": "spectre.console.analyzer/0.46.0",
+      "hashPath": "spectre.console.analyzer.0.46.0.nupkg.sha512"
+    },
+    "Spectre.Console.Cli/0.46.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q5HQEI3Ofv/jVYaggksipN3z2Hy0J7q3bogeidIIuQ/QGsY110DGw6n7+tp9nTswT70SDXvXfrXpeGKTJ7TwmA==",
+      "path": "spectre.console.cli/0.46.0",
+      "hashPath": "spectre.console.cli.0.46.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    }
+  }
+}
