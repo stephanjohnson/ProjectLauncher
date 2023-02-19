@@ -33,7 +33,7 @@ jobs:
       run: dotnet nuget list source
 
     - name: List folder
-      run: ls -Ra *.nupkg
+      run: ls -Ra
       
     - name: Publish the package to nuget.org
       run: dotnet nuget push */bin/Release/*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
