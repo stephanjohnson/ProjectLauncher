@@ -14,8 +14,8 @@ The idea is that if you're developing on a large code-base, you don't want to ru
 		<Copyright>Copyright (c) 2023 Stephan Johnson. All Rights Reserved.</Copyright>
 		<PackAsTool>True</PackAsTool>
 		<ToolCommandName>project</ToolCommandName>
-		<AssemblyVersion>1.0.2</AssemblyVersion>
-		<Version>1.0.2</Version>
+		<AssemblyVersion>1.0.3</AssemblyVersion>
+		<Version>1.0.3</Version>
 		<PackageProjectUrl>https://github.com/stephanjohnson/ProjectLauncher</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryUrl>https://github.com/stephanjohnson/ProjectLauncher</RepositoryUrl>
