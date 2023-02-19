@@ -3,6 +3,7 @@ name: Build and Publish to NuGet
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -18,6 +19,11 @@ jobs:
       env:
         NUGET_AUTH_TOKEN: ${{ secrets.NUGET_API_KEY }}
 
+    - uses: nuget/setup-nuget@v1
+      with:
+        nuget-api-key: ${{ secrets.NUGET_API_KEY }}
+        nuget-version: '5.x'
+
     - name: Restore NuGet packages
       run: dotnet restore
 
@@ -30,7 +36,10 @@ jobs:
     - name: List Nuget Sources
       run: dotnet nuget list source
       
+#    - name: Publish the package to nuget.org
+#      run: dotnet nuget push */bin/Release/*.nupkg -k $NUGET_AUTH_TOKEN -s nuget.org
+#      env:
+#        NUGET_AUTH_TOKEN: ${{ secrets.NUGET_TOKEN }}
+
     - name: Publish the package to nuget.org
-      run: dotnet nuget push */bin/Release/*.nupkg -k $NUGET_AUTH_TOKEN -s nuget.org
-      env:
-        NUGET_AUTH_TOKEN: ${{ secrets.NUGET_TOKEN }}
+      run: nuget push */bin/Release/*.nupkg
