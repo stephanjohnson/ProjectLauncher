@@ -26,8 +26,14 @@ jobs:
     - name: Pack
       run: dotnet pack --no-build --configuration Release
 
+    - name: List Nuget Version
+      run: dotnet nuget --version
+
     - name: List Nuget Sources
       run: dotnet nuget list source
+
+    - name: List folder
+      run: ls -Ra *.nupkg
       
     - name: Publish the package to nuget.org
       run: dotnet nuget push */bin/Release/*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
